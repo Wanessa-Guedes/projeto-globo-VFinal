@@ -1,0 +1,696 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Encode Sans", sans-serif;
+  margin: auto;
+  width: 1600px;
+}
+/*Ajustando o hyperlink*/
+a {
+  text-decoration: none;
+}
+
+/*Cabeçalho globo.com*/
+.cabecalho {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+}
+
+.cabecalho img {
+  width: 171px;
+  height: 36px;
+  left: 715px;
+  top: 22px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/*Barra do topo com links para outras páginas*/
+.barra-topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1250px;
+  margin-left: 140px;
+  text-align: center;
+  height: 40px;
+  /* border-bottom: 1px solid black; */
+}
+
+/*Configurações das logos das outras páginas*/
+.g1 {
+  color: #c3170c;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  left: 140px;
+  top: 81px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.oglobo {
+  color: #1e4b9b;
+  font-weight: bold;
+  width: 89px;
+  height: 40px;
+  left: 231px;
+  top: 81px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.valor {
+  color: #006766;
+  font-weight: bold;
+  width: 70px;
+  height: 40px;
+  left: 375px;
+  top: 81px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.ge {
+  color: #07aa47;
+  font-weight: bold;
+  width: 45px;
+  height: 40px;
+  left: 501px;
+  top: 81px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.cartola {
+  color: #e3662b;
+  font-weight: bold;
+  width: 86px;
+  height: 40px;
+  left: 603px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.globoplay {
+  color: #fb0735;
+  font-weight: bold;
+  width: 113px;
+  height: 40px;
+  left: 733px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.dropz {
+  color: #ff75bb;
+  font-weight: bold;
+  width: 75px;
+  height: 40px;
+  left: 902px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.gshow {
+  color: #ec7d00;
+  font-weight: bold;
+  width: 84px;
+  height: 40px;
+  left: 1033px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.quem {
+  color: #323333;
+  font-weight: bold;
+  width: 74px;
+  height: 40px;
+  left: 1176px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.receitas {
+  color: #a81d83;
+  font-weight: bold;
+  width: 93px;
+  height: 40px;
+  left: 1312px;
+  top: 80px;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+/*Bloco com as 3 primeiras notícias da página*/
+.bloco-3-primeiras h1 {
+  font-size: 52px;
+  line-height: 67px;
+  font-weight: bold;
+  color: #c4160c;
+  width: 624px;
+  height: 201px;
+  left: 151px;
+  top: 160px;
+}
+.bloco-3-primeiras-p1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #303134;
+  margin-top: 29px;
+  font-style: normal;
+}
+
+.bloco-3-primeiras-p2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #303134;
+  margin-top: 7px;
+  font-style: normal;
+}
+
+/*Notícia 1 (Da primeira parte) - Com imagem*/
+.alem-do-presidente {
+  background-color: #e5e5e5;
+  margin-right: 25px;
+}
+.alem-do-presidente img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+  top: 498px;
+  left: 154px;
+}
+.alem-do-presidente h3 {
+  color: #c4170c;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  width: 192px;
+  height: 19px;
+  left: 154px;
+  top: 619px;
+}
+
+.alem-do-presidente h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  width: 192px;
+  height: 84px;
+  left: 154px;
+  top: 644px;
+}
+
+.alem-do-presidente p {
+  color: #2f3134;
+  line-height: 19px;
+  font-size: 14px;
+  width: 174px;
+  height: 42.5px;
+  left: 154px;
+  top: 732.5px;
+}
+/*Notícia 2 (Da primeira parte)- Com imagem*/
+.crimes-na-fronteira {
+  background-color: #e5e5e5;
+  margin-right: 25px;
+}
+.crimes-na-fronteira img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+  left: 371px;
+  top: 498px;
+}
+.crimes-na-fronteira h3 {
+  color: #c4170c;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  width: 192px;
+  height: 19px;
+  left: 154px;
+  top: 619px;
+}
+
+.crimes-na-fronteira h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  width: 192px;
+  height: 84px;
+  left: 154px;
+  top: 644px;
+}
+.crimes-na-fronteira p {
+  color: #2f3134;
+  line-height: 19px;
+  font-size: 14px;
+  width: 174px;
+  height: 42.5px;
+  left: 154px;
+  top: 732.5px;
+}
+
+/*Notícia 3 (Da primeira parte)- Com imagem*/
+.reino-unido {
+  background-color: #e5e5e5;
+  margin-right: 25px;
+}
+.reino-unido img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+  left: 588px;
+  top: 498px;
+}
+.reino-unido h3 {
+  color: #c4170c;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  width: 192px;
+  height: 19px;
+  left: 154px;
+  top: 619px;
+}
+
+.reino-unido h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  width: 192px;
+  height: 84px;
+  left: 154px;
+  top: 644px;
+}
+.reino-unido p {
+  color: #2f3134;
+  line-height: 19px;
+  font-size: 14px;
+  width: 174px;
+  height: 42.5px;
+  left: 154px;
+  top: 732.5px;
+}
+
+/* Bloco encapsulando as três primeiras notícias com imagem
+logo abaixo das chamadas principais */
+
+.bloco-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Bloco com configurações
+ para as chamadas sem imagens*/
+.sem-imagem {
+  background-color: #e5e5e5;
+  margin-right: 25px;
+}
+.sem-imagem h3 {
+  color: #c4170c;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 192px;
+  height: 19px;
+  left: 155px;
+  top: 837px;
+}
+
+.sem-imagem h2 {
+  font-weight: bold;
+  color: #2f3134;
+  font-size: 20px;
+  margin-bottom: 4.5px;
+  line-height: 25px;
+  width: 192px;
+  height: 84px;
+  left: 155px;
+  top: 862px;
+}
+
+.sem-imagem p {
+  color: #2f3134;
+  font-size: 14px;
+  line-height: 19px;
+  width: 174px;
+  height: 42.5px;
+  left: 155px;
+  top: 950.5px;
+}
+/*Encapsulando as notícias sem imagem*/
+.bloco-no-image {
+  display: flex;
+  background-color: #e5e5e5;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Encapsulando as 6 primeiras notícias 
+miniaturas em um bloco só*/
+.bloco-ter {
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Encapsulando todas as informações 
+principais*/
+.bloco-all-primeiras {
+  background-color: #e5e5e5;
+  margin-top: 34px;
+  display: flex;
+  align-items: space-around;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Notícia 1 - A esquerda (Coluna 1)*/
+.espiao-estatistico {
+  background-color: #e5e5e5;
+}
+.espiao-estatistico img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  left: 853px;
+  top: 162px;
+}
+.espiao-estatistico h3 {
+  color: #16ae54;
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 853px;
+  top: 301px;
+}
+
+.espiao-estatistico h2 {
+  font-weight: bold;
+  color: #2f3134;
+  font-size: 20px;
+  margin-top: 6px;
+  line-height: 25px;
+  width: 240px;
+  height: 84px;
+  left: 853px;
+  top: 326px;
+}
+
+.espiao-estatistico p {
+  color: #2f3134;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 50px;
+  line-height: 19px;
+  width: 217px;
+  height: 43px;
+  left: 853px;
+  top: 414px;
+}
+/*Notícia 2 - A esquerda (Coluna 1)*/
+.greve-segue-na-raposa {
+  background-color: #e5e5e5;
+}
+.greve-segue-na-raposa img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  left: 853px;
+  top: 507px;
+}
+.greve-segue-na-raposa h3 {
+  color: #16ae54;
+  margin-top: 11px;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 853px;
+  top: 646px;
+}
+
+.greve-segue-na-raposa h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 42px;
+  line-height: 25px;
+  width: 240px;
+  height: 84px;
+  left: 853px;
+  top: 671px;
+}
+/*Notícia 3 - A esquerda (Coluna 1)*/
+.campeonato-frances {
+  background-color: #e5e5e5;
+}
+.campeonato-frances img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  left: 853px;
+  top: 797px;
+}
+.campeonato-frances h3 {
+  color: #16ae54;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 853px;
+  top: 936px;
+}
+
+.campeonato-frances h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  width: 240px;
+  height: 84px;
+  left: 853px;
+  top: 961px;
+}
+
+/*Notícia 1 - A direita (Coluna 2)*/
+.ferias-e-jh {
+  background-color: #e5e5e5;
+}
+.ferias-e-jh img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  left: 1165px;
+  top: 162px;
+}
+.ferias-e-jh h3 {
+  color: #ec8006;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 1165px;
+  top: 301px;
+}
+
+.ferias-e-jh h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  width: 240px;
+  height: 84px;
+  left: 1165px;
+  top: 326px;
+  margin-bottom: 23px;
+}
+/*Notícia 2 - A direita (Coluna 2)*/
+.verdades-secretas-2 {
+  background-color: #e5e5e5;
+}
+.verdades-secretas-2 img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  left: 1165px;
+  top: 433px;
+}
+.verdades-secretas-2 h3 {
+  color: #ec8006;
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 1165px;
+  top: 572px;
+}
+
+.subs-verdades-secretas h2 {
+  color: #2f3134;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 6px;
+  width: 240px;
+  height: 84px;
+  left: 1165px;
+  top: 597px;
+}
+
+.subs-verdades-secretas p {
+  color: #2f3134;
+  font-weight: normal;
+  font-size: 14px;
+  width: 217px;
+  height: 21px;
+  left: 1166px;
+  top: 660px;
+  margin-top: -20px;
+}
+
+.Sub2-VS {
+  color: #2f3134;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  width: 217px;
+  height: 21px;
+  left: 1166px;
+  top: 660px;
+  margin-bottom: 50px;
+}
+
+/*Notícia 3 - A direita (Coluna 2)*/
+.nos-tempos-do-imperador {
+  background-color: #e5e5e5;
+}
+.nos-tempos-do-imperador img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+.nos-tempos-do-imperador h3 {
+  color: #ec8006;
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 240px;
+  height: 19px;
+  left: 1165px;
+  top: 900px;
+}
+
+.nos-tempos-do-imperador h2 {
+  font-weight: bold;
+  color: #2f3134;
+  font-size: 20px;
+  line-height: 25px;
+  width: 240px;
+  height: 26px;
+  left: 1165px;
+  top: 925px;
+  margin-top: 6px;
+}
+.nos-tempos-do-imperador p {
+  color: #2f3134;
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  width: 217px;
+  height: 21px;
+  left: 1166px;
+  top: 959px;
+  margin-bottom: 100px;
+}
+
+/*Bloco notícias coluna 1*/
+.bloco-col-1 {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 36px;
+  margin-bottom: 35px;
+  width: 310px;
+  border-right: 1px solid #ebedef;
+  border-left: 1px solid #ebedef;
+}
+
+/*Bloco notícias coluna 2*/
+.bloco-col-2 {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+  width: 310px;
+}
+
+/*Encapsulando as notícias da direita
+ (em coluna)*/
+.noticas-coluna {
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/*Bloco união das notícias*/
+.bloco-all {
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+/*Linhas divisórias na página*/
+.line {
+  border-bottom: 1px solid #f5f6f7;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.line-noticias-1 {
+  border-bottom: 1px solid #f5f6f7;
+  display: block;
+  margin-right: 38.5px;
+  width: 624px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.line-noticias-2 {
+  border-bottom: 1px solid #f5f6f7;
+  display: block;
+  margin-right: 38.5px;
+  width: 624px;
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
