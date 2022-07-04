@@ -1,5 +1,12 @@
 <h1 align=center> Project 1 - Globo Site </h1>
 
+<h3 align=center> Description </h3>
+<p align=center>
+First project at Driven full stack web development using only HTML and CSS to create a similar page of <a href="http://" target="_blank">globo.com</a>.
+</p>
+
+<hr> 
+
 <h3 align=center> Build with </h3>
 <div align=center>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
