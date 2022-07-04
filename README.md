@@ -24,6 +24,6 @@ First project at Driven full stack web development using only HTML and CSS to cr
 
 <h3 align=center> Contact </h3>
 <div align=center>
-<a href="https://www.linkedin.com/in/engenheira-eletricista-wanessa-guedes/" title="LinkedIn Profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+<a href="https://www.linkedin.com/in/eng-wanessa-guedes/" title="LinkedIn Profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </div>
 
